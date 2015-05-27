@@ -3,16 +3,50 @@
         "4": {
             "Handshaking": {
                 "Clientbound": {}, 
-                "Serverbound": {}
+                "Serverbound": {
+                    "0": "Handshake"
+                }
             }, 
             "Login": {
-                "Clientbound": {}, 
-                "Serverbound": {}
+                "Clientbound": {
+                    "0": "Disconnect", 
+                    "1": "Encryption Request", 
+                    "2": "Login Success"
+                }, 
+                "Serverbound": {
+                    "0": "Login Start", 
+                    "1": "Encryption Response"
+                }
             }, 
             "Play": {
                 "Clientbound": {
+                    "0": "Spawn Mob", 
+                    "1": "Set Experience", 
                     "2": "Set Slot", 
                     "3": "Plugin Message", 
+                    "4": "Entity Equipment", 
+                    "5": "Spawn Position", 
+                    "6": "Update Health", 
+                    "7": "Respawn", 
+                    "8": "Player Position And Look", 
+                    "9": "Held Item Change", 
+                    "16": "Spawn Painting", 
+                    "17": "Spawn Experience Orb", 
+                    "18": "Entity Velocity", 
+                    "19": "Destroy Entities", 
+                    "20": "Entity", 
+                    "21": "Entity Relative Move", 
+                    "22": "Entity Look", 
+                    "23": "Entity Look and Relative Move", 
+                    "24": "Entity Teleport", 
+                    "25": "Entity Head Look", 
+                    "32": "Entity Properties", 
+                    "33": "Chunk Data", 
+                    "34": "Multi Block Change", 
+                    "35": "Block Change", 
+                    "36": "Block Action", 
+                    "37": "Block Break Animation", 
+                    "38": "Map Chunk Bulk", 
                     "39": "Explosion", 
                     "40": "Effect", 
                     "41": "Sound Effect", 
@@ -29,19 +63,33 @@
                 }, 
                 "Serverbound": {
                     "0": "Confirm Transaction", 
+                    "1": "Chat Message", 
+                    "2": "Use Entity", 
+                    "3": "Player", 
+                    "4": "Player Position", 
+                    "5": "Player Look", 
+                    "6": "Player Position And Look", 
                     "7": "Player Digging", 
                     "8": "Player Block Placement", 
+                    "9": "Held Item Change", 
                     "16": "Creative Inventory Action", 
                     "17": "Enchant Item", 
                     "18": "Update Sign", 
                     "19": "Player Abilities", 
                     "21": "Client Settings", 
+                    "22": "Client Status", 
                     "23": "Plugin Message"
                 }
             }, 
             "Status": {
-                "Clientbound": {}, 
-                "Serverbound": {}
+                "Clientbound": {
+                    "0": "Response", 
+                    "1": "Ping"
+                }, 
+                "Serverbound": {
+                    "0": "Request", 
+                    "1": "Ping"
+                }
             }
         }, 
         "47": {
@@ -152,16 +200,50 @@
         "5": {
             "Handshaking": {
                 "Clientbound": {}, 
-                "Serverbound": {}
+                "Serverbound": {
+                    "0": "Handshake"
+                }
             }, 
             "Login": {
-                "Clientbound": {}, 
-                "Serverbound": {}
+                "Clientbound": {
+                    "0": "Disconnect", 
+                    "1": "Encryption Request", 
+                    "2": "Login Success"
+                }, 
+                "Serverbound": {
+                    "0": "Login Start", 
+                    "1": "Encryption Response"
+                }
             }, 
             "Play": {
                 "Clientbound": {
+                    "0": "Spawn Mob", 
+                    "1": "Set Experience", 
                     "2": "Set Slot", 
                     "3": "Plugin Message", 
+                    "4": "Entity Equipment", 
+                    "5": "Spawn Position", 
+                    "6": "Update Health", 
+                    "7": "Respawn", 
+                    "8": "Player Position And Look", 
+                    "9": "Held Item Change", 
+                    "16": "Spawn Painting", 
+                    "17": "Spawn Experience Orb", 
+                    "18": "Entity Velocity", 
+                    "19": "Destroy Entities", 
+                    "20": "Entity", 
+                    "21": "Entity Relative Move", 
+                    "22": "Entity Look", 
+                    "23": "Entity Look and Relative Move", 
+                    "24": "Entity Teleport", 
+                    "25": "Entity Head Look", 
+                    "32": "Entity Properties", 
+                    "33": "Chunk Data", 
+                    "34": "Multi Block Change", 
+                    "35": "Block Change", 
+                    "36": "Block Action", 
+                    "37": "Block Break Animation", 
+                    "38": "Map Chunk Bulk", 
                     "39": "Explosion", 
                     "40": "Effect", 
                     "41": "Sound Effect", 
@@ -178,19 +260,33 @@
                 }, 
                 "Serverbound": {
                     "0": "Confirm Transaction", 
+                    "1": "Chat Message", 
+                    "2": "Use Entity", 
+                    "3": "Player", 
+                    "4": "Player Position", 
+                    "5": "Player Look", 
+                    "6": "Player Position And Look", 
                     "7": "Player Digging", 
                     "8": "Player Block Placement", 
+                    "9": "Held Item Change", 
                     "16": "Creative Inventory Action", 
                     "17": "Enchant Item", 
                     "18": "Update Sign", 
                     "19": "Player Abilities", 
                     "21": "Client Settings", 
+                    "22": "Client Status", 
                     "23": "Plugin Message"
                 }
             }, 
             "Status": {
-                "Clientbound": {}, 
-                "Serverbound": {}
+                "Clientbound": {
+                    "0": "Response", 
+                    "1": "Ping"
+                }, 
+                "Serverbound": {
+                    "0": "Request", 
+                    "1": "Ping"
+                }
             }
         }
     }, 
