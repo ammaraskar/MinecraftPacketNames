@@ -58,7 +58,7 @@ def main():
         packets["preNetty"][version_number] = scrape_pre_netty(link)
 
     with open('packets.json', 'w') as outfile:
-        json.dump(packets, outfile, indent=4, sort_keys=True)
+        json.dump(packets, outfile, indent=4)
 
 
 STATES = ['Handshaking', 'Play', 'Status', 'Login']
