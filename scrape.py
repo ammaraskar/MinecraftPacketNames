@@ -62,7 +62,7 @@ def main():
 
 
 STATES = ['Handshaking', 'Play', 'Status', 'Login']
-TABLE_PACKET_ID_REGEX = re.compile(' *\| *rowspan="\d*" *\| (?P<id>\dx\d*)', re.IGNORECASE)
+TABLE_PACKET_ID_REGEX = re.compile(' *\| *rowspan=[^ ]* *\| (?P<id>\dx\d*)', re.IGNORECASE)
 def scrape_post_netty(link):
     protocol_page = requests.get(link + "&action=edit")
     protocol_page = BeautifulSoup(protocol_page.text)
