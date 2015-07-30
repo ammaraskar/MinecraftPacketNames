@@ -465,7 +465,7 @@
                 }, 
                 "Clientbound": {
                     "0": "Response", 
-                    "1": "Ping"
+                    "1": "Pong"
                 }
             }, 
             "Login": {
