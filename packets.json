@@ -457,6 +457,35 @@
         }
     }, 
     "postNetty": {
+        "51": {
+            "Status": {
+                "Serverbound": {}, 
+                "Clientbound": {}
+            }, 
+            "Login": {
+                "Serverbound": {}, 
+                "Clientbound": {}
+            }, 
+            "Play": {
+                "Serverbound": {
+                    "8": "{{Change||Use Item}}", 
+                    "2": "Use Entity", 
+                    "7": "Player Digging"
+                }, 
+                "Clientbound": {
+                    "0": "Spawn Mob", 
+                    "73": "{{Change||Boss Bar}}", 
+                    "66": "Combat Event", 
+                    "4": "Entity Equipment"
+                }
+            }, 
+            "Handshaking": {
+                "Serverbound": {
+                    "0": "Handshake"
+                }, 
+                "Clientbound": {}
+            }
+        }, 
         "50": {
             "Status": {
                 "Serverbound": {}, 
