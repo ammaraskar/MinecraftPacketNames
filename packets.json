@@ -480,7 +480,7 @@
                     "33": "Chunk Data", 
                     "73": "{{Change||Boss Bar}}", 
                     "66": "Combat Event", 
-                    "52": "Maps", 
+                    "52": "Map", 
                     "32": "Entity Properties"
                 }
             }, 
@@ -905,9 +905,9 @@
                     "49": "Window Property", 
                     "50": "Confirm Transaction", 
                     "51": "Update Sign", 
-                    "52": "Maps", 
+                    "52": "Map", 
                     "53": "Update Block Entity", 
-                    "54": "Sign Editor Open", 
+                    "54": "Open Sign Editor", 
                     "55": "Statistics", 
                     "56": "Player List Item", 
                     "57": "Player Abilities", 
@@ -917,7 +917,7 @@
                     "68": "World Border", 
                     "69": "Title", 
                     "70": "Set Compression", 
-                    "71": "Player List Header/Footer", 
+                    "71": "Player List Header And Footer", 
                     "72": "Resource Pack Send", 
                     "73": "Update Entity NBT"
                 }
