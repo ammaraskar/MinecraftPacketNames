@@ -457,6 +457,41 @@
         }
     }, 
     "postNetty": {
+        "72": {
+            "Status": {
+                "Serverbound": {}, 
+                "Clientbound": {}
+            }, 
+            "Login": {
+                "Serverbound": {}, 
+                "Clientbound": {}
+            }, 
+            "Play": {
+                "Serverbound": {
+                    "8": "{{Change||Use Item}}", 
+                    "2": "Use Entity", 
+                    "7": "Player Digging"
+                }, 
+                "Clientbound": {
+                    "0": "Spawn Mob", 
+                    "1": "Entity Status", 
+                    "34": "{{Change||Unload Chunk}}", 
+                    "3": "Teams", 
+                    "4": "{{Change||Set Cooldown}}", 
+                    "33": "Chunk Data", 
+                    "73": "{{Change||Boss Bar}}", 
+                    "66": "Combat Event", 
+                    "52": "Map", 
+                    "32": "Entity Properties"
+                }
+            }, 
+            "Handshaking": {
+                "Serverbound": {
+                    "0": "Handshake"
+                }, 
+                "Clientbound": {}
+            }
+        }, 
         "70": {
             "Status": {
                 "Serverbound": {}, 
